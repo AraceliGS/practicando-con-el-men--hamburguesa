@@ -1,0 +1,55 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 800px;
+}
+
+/* Estilos al menú */
+
+.list-menu {
+  height: 100%;
+  width: 22%;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  list-style: none;
+}
+
+.profile {
+  outline: 1px solid gold;
+  height: 13%;
+}
+
+.container {
+  outline: 1px solid silver;
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 5.5%;
+}
+
+.profile img {
+  width: 20%;
+  height: 100%;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 3.7%;
+  position: relative;
+  bottom: 15px;
+  letter-spacing: 0.8px;
+}
+
+.fa-caret-down {
+  font-size: 1.8em;
+  margin-left: 3%;
+  position: relative;
+  bottom: 10px;
+}
