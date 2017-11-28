@@ -22,12 +22,10 @@ body {
 }
 
 .profile {
-  outline: 1px solid gold;
-  height: 13%;
+  height: 13.5%;
 }
 
 .container {
-  outline: 1px solid silver;
   width: 86%;
   margin: 0 auto;
   padding-top: 5.5%;
@@ -52,4 +50,25 @@ body {
   margin-left: 3%;
   position: relative;
   bottom: 10px;
+}
+
+.option {
+  height: 10.2%;
+  border-top: 1px solid #fff;
+  padding-left: 9%;
+  font-weight: 700;
+}
+
+.option-different-style {
+  height: 10.2%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding-left: 9%;
+  font-weight: 700;
+}
+
+.option span, .option-different-style span {
+margin-top: 12%;
+display: inline-block;
+letter-spacing: 0.4px;
 }
